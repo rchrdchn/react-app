@@ -1,0 +1,66 @@
+.App {
+  background-color: #149071;
+  height: 1000px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #1F5191;
+  height: 60px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 32px;
+  color: white;
+  border-bottom: 5px solid #444;
+}
+
+.App-intro {
+  font-size: large;
+  padding-left: 40px;
+}
+
+.books-body {
+  background-color: #149071;
+}
+
+.books-title {
+  margin-top: 30px;
+  margin-left: 40px;
+  font-family: 'Alegreya', serif;
+  font-size: 36px;
+  color: #f8f8f8;
+  letter-spacing: 1px;
+}
+
+.book {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.input {
+  margin-left: 40px;
+  margin-bottom: 5px;
+  padding: 5px 45px 5px 0;
+}
+
+.button {
+  margin-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  background-color: #33279A;
+  color: #fff;
+  padding: 5px 60px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+

@@ -1,0 +1,42 @@
+.book {
+  width: 100%;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .favorite {
+  display: inline-block;
+  background-color: #dfdfdf;
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  margin: 6px;
+  cursor: pointer;
+}
+.favorite.enabled {
+  background-color: tomato;
+}
+ */
+
+.title {
+  color: #f2f2f2;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.description {
+  color: #FBE9E7;
+  font-size: 0.9rem;
+  margin: 10px 50px 5px 0px;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.author {
+  color: #E0E0E0;
+  font-family: 'Alegreya', serif;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+}
